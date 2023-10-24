@@ -18,8 +18,8 @@ In our future scope, we plan to integrate geolocation data from tweets, allowing
 
 ![plot](https://github.com/BharaniSurya/ARDC_GRP_2/blob/main/MicrosoftTeams-image%20(3).png)
 
-
 ### work flow
+![plot](https://github.com/BharaniSurya/ARDC_GRP_2/blob/main/MicrosoftTeams-image%20(4).png)
 #### Fine-Tuning and Saving the Model: 
 We began by fine-tuning the model and saving both the model and tokenizer for future use. This step was crucial for deploying the chatbot in real-world scenarios and ensuring its long-term viability.
 
