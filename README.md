@@ -10,6 +10,13 @@ In our future scope, we plan to integrate geolocation data from tweets, allowing
 ## Tools and installing support 
 
 ## Hybrid annotation 
+In the project's early stages, a critical challenge was acquiring tweet data annotated with emotional content. However, this task proved to be highly resource and time-intensive, and publicly available annotated datasets were scarce. To address this challenge, we adopted a hybrid annotation approach that combined the capabilities of Large Language Models (LLMs) and the NRC Lexicon for initial annotation, followed by a comprehensive verification process conducted by a human annotator.
+
+### NRC Lexicon for Annotating 'fear,' 'sadness,' and 'anger'
+
+The methodology for annotating text data with specific emotions, notably fear, sadness, and anger, was meticulously structured to gain deeper insights into the emotional content embedded within textual information. In this section, we delineate the systematic approach employed to analyze and annotate text data, focusing on emotions such as fear, anxiety, sadness, anger, helplessness, relief, frustration, confusion, empathy, and hope.
+
+To ensure precision in sentiment analysis, we commenced by defining a comprehensive list of emotions referred to as "emotions_to_check." This list included specific emotions of interest, thereby providing clear guidance for sentiment analysis. The data underwent a systematic loop, addressing missing values, utilizing the NRCLex library for emotion analysis, and evaluating emotion presence based on emotional scores from the NRC Emotion Lexicon. Each text's emotional presence or absence was captured, resulting in a binary representation of emotion presence. The results were collected systematically for all texts and added as columns in the dataset. These additional columns indicated the presence or absence of specific emotions, contributing to a structured dataset for further analysis. A crucial step involved manual verification to ensure that the automated emotion assignments matched the emotions presented in the output, enhancing the reliability and accuracy of the annotated dataset for subsequent project phases. This approach provided a robust foundation for emotional analysis within the project.
 
 ## Classification Model 
 
